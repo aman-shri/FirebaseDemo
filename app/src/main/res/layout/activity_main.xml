@@ -4,7 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/imag">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0D000000"/>
+
 
     <Button
         android:layout_width="match_parent"
@@ -17,29 +24,32 @@
         android:layout_centerHorizontal="true" />
 
     <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/logout"
         android:layout_below="@id/add"
-        android:padding="10dp"
         android:layout_marginBottom="10dp"
-        android:id="@+id/listView"/>
+        android:padding="10dp">
 
 
+
+    </ListView>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
+        android:hint="Repair Details"
         android:id="@+id/edit"
+        android:textColorHint="@color/black"
         android:layout_marginTop="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="Add to Repairs"
         android:layout_below="@+id/edit"
-        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:id="@+id/add"/>

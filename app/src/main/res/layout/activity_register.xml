@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:background="@color/white">
 
     <ImageView
         android:layout_width="500dp"
@@ -25,7 +26,7 @@
         android:layout_width="350dp"
         android:layout_height="45dp"
         android:background="@drawable/forget"
-        android:text="Email"
+        android:hint="Email"
         android:textColor="#0d6e6a"
         android:textStyle="bold"
         android:textSize="18dp"
@@ -37,7 +38,8 @@
         android:layout_width="350dp"
         android:layout_height="45dp"
         android:background="@drawable/forget"
-        android:text="Password"
+        android:hint="Password"
+        android:inputType="textPassword"
         android:textColor="#0d6e6a"
         android:textStyle="bold"
         android:textSize="18dp"
