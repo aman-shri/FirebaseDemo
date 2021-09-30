@@ -1,6 +1,5 @@
-# FirebaseDemo
 
-### A Real time service application(QR Based).
+## A real time service application(QR Based).
 
 ### **User Manual**
 
