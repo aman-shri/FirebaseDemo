@@ -5,7 +5,7 @@
 
 - First we'll register the user using an email and a six digit password.
 
-- Then we'll login with that registered user.
+- Then we'll login with that registered user (username: zixer@gmail.com, password: 123456).
 
 - After login the QR prompt will open and then we have to scan the QR(the product details should be present in the database).
 
