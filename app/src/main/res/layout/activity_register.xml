@@ -13,7 +13,6 @@
         android:src="@drawable/image"/>
 
     <TextView
-        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -27,6 +26,7 @@
         android:layout_height="45dp"
         android:background="@drawable/forget"
         android:hint="Email"
+        android:id="@+id/email"
         android:textColor="#0d6e6a"
         android:textStyle="bold"
         android:textSize="18dp"
